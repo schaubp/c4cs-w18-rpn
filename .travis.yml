@@ -1,3 +1,7 @@
 # This document will instruct Travis in how to run continuous integration on the repository which the document is native to.
 
-
+language: python
+python:
+    - "3.5"
+script:
+    - py.test
